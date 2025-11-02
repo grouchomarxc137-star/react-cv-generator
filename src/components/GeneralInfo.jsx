@@ -1,8 +1,7 @@
 import "../style/generalInfo.css"
-
 function GeneralInfo(){
     return(
-        <div className="general-info-container">
+        <div className="section-container general">
             <p>General Information</p>
             <p className="form-field-title">Full Name</p>
             <input placeholder="Enter your full name" className="form-field-input"></input>
@@ -15,3 +14,7 @@ function GeneralInfo(){
     )
 }
 export default GeneralInfo;
+
+
+
+// to do : add control inputs

@@ -1,4 +1,4 @@
-.general-info-container{
+.section-container{
     background-color: white;
     width: 1000px;
     height: 364px;
@@ -6,6 +6,7 @@
     border-radius: 10px;
     padding-top: 20px;
     padding-left: 30px;
+    margin-bottom: 30px;
 }
 .form-field-title{
     margin-top: 20px;
@@ -21,7 +22,7 @@
 }
 .form-submit-button{
     margin-top: 20px;
-    width: 970px;
+    width: 980px;
     height: 36px;
     border: none;
     border-radius: 8px;
