@@ -1,31 +1,45 @@
 .section-container{
     background-color: white;
     width: 1000px;
-    height: 364px;
-    border: solid, 1px, rgba(0, 0, 0, 0.1);
+    /* Removed fixed height to be content-driven */
+    height: auto;
+    min-height: 250px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding-top: 20px;
-    padding-left: 30px;
+    padding: 20px 30px 30px 30px;
     margin-bottom: 30px;
 }
+
 .form-field-title{
     margin-top: 20px;
 }
+
 .form-field-input{
     margin-top: 5px;
     height: 36px;
-    width: 970px;
+    width: 100%;
+    box-sizing: border-box;
     border: none;
     border-radius: 8px;
     background-color: #f3f3f5;
     padding-left: 10px;
 }
-.form-submit-button{
-    margin-top: 20px;
-    width: 980px;
-    height: 36px;
-    border: none;
-    border-radius: 8px;
-    background-color: black;
-    color: white;
+
+.form-submit-button {
+    border-radius: 20px;  /* Makes buttons more rounded */
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.form-submit-button:hover {
+    background-color: #f5f5f5;
+}
+
+.form-submit-button.education.one {
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }

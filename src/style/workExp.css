@@ -1,6 +1,30 @@
-.section-container.work{
-    height: 525px;
+.section-container.work {
+    height: auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
-.section-container.section.work{
-    height: 360px;
+
+.section-container.section.work {
+    height: auto;
+    margin-bottom: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.action-buttons.work {
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0 12px;
+}
+
+@media (max-width: 640px) {
+    .action-buttons.work {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
